@@ -1,3 +1,5 @@
+package pnj;
+
 
 public class TypeRobot extends Robot{
 	private int portee;
@@ -59,14 +61,13 @@ public class TypeRobot extends Robot{
 		return this.tirer;
 	}
 	
-	/**
-	 * Récupère 
-	 * @return
-	 */
 	public int getAvancer(){
 		return this.avancer;
 	}
-	
+	/**
+	 * Récupère les dégats que cause une attaque
+	 * @return
+	 */
 	public int getDegat(){
 		return this.degat;
 	}

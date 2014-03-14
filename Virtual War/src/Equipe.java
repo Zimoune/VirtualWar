@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+import pnj.Char;
+import pnj.Robot;
+
 
 public class Equipe {
 

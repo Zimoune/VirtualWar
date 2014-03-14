@@ -1,3 +1,5 @@
+package pnj;
+
 
 public class Piegeur extends TypeRobot{
 
@@ -7,6 +9,10 @@ public class Piegeur extends TypeRobot{
 		super(id, "Piegeur", 1, 1, 50, 2, -2, -2);
 	}
 	
+	/**
+	 * Récupère l'énergie que consomme une mine
+	 * @return
+	 */
 	public int getMiner(){
 		return this.miner;
 	}

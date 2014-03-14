@@ -1,13 +1,12 @@
+import pnj.TypeRobot;
 
-public class Case {
+
+public class Case extends Plateau{
 	
-	private int positionX;
-	private int positionY;
 	private char contient = ' ';
 	
 	public Case(int x, int y){
-		this.positionX = x;
-		this.positionY = y;
+		super(x, y);
 	}
 	
 	public String toString(){
@@ -22,8 +21,6 @@ public class Case {
 		this.contient = 'x';
 	}
 	public void setPosition(int x, int y){
-		this.positionX = x;
-		this.positionY = y;
 	}
 	
 	public char getContient(){
