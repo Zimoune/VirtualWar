@@ -17,6 +17,11 @@ public class Equipe {
 		this.nomPays = nom;
 	}
 	
+	public Equipe(int numEquip, String nom){
+		this.id = numEquip;
+		this.nomPays = nom;
+	}
+	
 	/**
 	 * Récupère l'id de l'équipe
 	 * @return
@@ -56,5 +61,9 @@ public class Equipe {
 		for(Robot r:list){
 			r.setNom(r.getNom().toLowerCase());
 		}
+	}
+	
+	public String toString(){
+		return this.nomPays + "("+this.id+")";
 	}
 }
